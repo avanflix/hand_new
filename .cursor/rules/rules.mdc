@@ -1,0 +1,9 @@
+---
+alwaysApply: true
+---
+Always scan the codebase before creating any file or folder if it's already present don't create the new just edit that.
+only use tailwind
+never use emojis only use icons
+no need to create a MD file 
+do not use run build or run lint unless asked
+the app is already running in terminal no need to run again

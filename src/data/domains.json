@@ -1,0 +1,219 @@
+[
+  {
+    "id": "education",
+    "heroImage": "/education/edu.jpg",
+    "heroTitle": "Educational Excellence",
+    "heroSubtitle": "Knowledge is power, we make it Accessible",
+    "heroButtonText": "Learn Programs",
+    "heroButtonLink": "/donate",
+    "overviewTitle": "Education",
+    "overviewDescription": "At HAND, we believe that quality education is the most powerful tool to break the cycle of poverty and unlock a brighter future for every child. Our Education & Child Development initiatives are designed to ensure that children in rural and marginalized communities have access to inclusive learning opportunities, proper guidance, and the confidence to pursue their dreams.",
+    "whatWeDoDescription": "We create safe, engaging, and supportive learning environments where children can grow academically, socially, emotionally, and creatively. From providing academic support and digital learning exposure to enhancing school infrastructure and supplying educational materials, our efforts strengthen both students and educators at the grassroots level. We focus on future-ready education — encouraging skills such as digital literacy, communication, critical thinking, and leadership through interactive and child-centered learning methods. By collaborating with schools, teachers, and parents, we help improve learning outcomes, reduce dropout rates, and build a stronger foundation for lifelong success. Together, we are shaping informed, confident, and capable young learners who can lead the way toward sustainable community development.",
+    "overviewCards": [
+      {
+        "id": "adolescence-education",
+        "title": "Adolescence Education",
+        "description": "Helping students understand the dangers of drugs, how they affect the brain and body, and how to say 'no' with confidence.",
+        "fullDescription": "Adolescence is a sensitive stage of growing up, when young people face many emotional and social changes. At this age, they may feel pressure from friends or curiosity that can lead them toward harmful habits like drug or substance abuse. It is important to help students understand the dangers of drugs, how they affect the brain and body, and how to say 'no' with confidence. Creating a safe space in schools for open conversations can protect children and guide them toward healthier choices.",
+        "image": "/ourwork/4.jpg"
+      },
+      {
+        "id": "stem-robotics",
+        "title": "STEM (AI & ROBOTICS)",
+        "description": "Introducing hands-on STEM education, AI learning, and robotics training to students in rural and underserved communities to prepare them for a rapidly evolving world.",
+        "fullDescription": "To prepare children for a rapidly evolving world, HAND introduces hands-on STEM education, AI learning, and robotics training to students in rural and underserved communities. Our interactive learning model includes workshops, maker-spaces, coding sessions, and project-based activities that spark curiosity and innovation. Through these future-focused programs, students build critical thinking, problem-solving skills, teamwork, creativity, and technological confidence — essential competencies for tomorrow’s digital job market. We ensure that children from marginalized backgrounds gain exposure to the same advanced learning opportunities available to students globally, helping them become future-ready, skilled, and competitive. By integrating 21st-century skills, digital literacy, and real-world applications into education, we empower students to explore new career pathways in science, technology, engineering, and mathematics, ultimately contributing to brighter futures for themselves and their communities.",
+        "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=300&fit=crop"
+      },
+      {
+        "id": "spoken-english",
+        "title": "Spoken English",
+        "description": "Our spoken English program helps students improve their language skills through engaging lessons, conversation practice, storytelling, and confidence-building activities.",
+        "fullDescription": "Effective communication is a key driver of academic and professional success. Our spoken English program helps students improve their language skills through engaging lessons, conversation practice, storytelling, and confidence-building activities.",
+        "image": "/ourwork/12.jpg"
+      },
+      {
+        "id": "mhm-education",
+        "title": "Menstrual Hygiene Management (MHM)",
+        "description": "Empowering girls and women through menstrual health awareness, breaking taboos, and promoting dignity.",
+        "fullDescription": "At our organisation, education goes beyond classrooms-it begins with dignity, awareness, and health. Through our Menstrual Hygiene Management (MHM) initiatives, we work to break taboos, spread awareness, and empower girls and women with accurate knowledge about menstrual health. We conduct age-appropriate awareness sessions in schools and communities, focusing on menstrual health, hygiene practices, and body literacy. Our programmes promote the safe use and disposal of menstrual products, address myths and misconceptions, and encourage open conversations around menstruation. By ensuring access to information, resources, and a supportive environment, we aim to reduce school absenteeism, improve health outcomes, and help girls manage menstruation with confidence, dignity, and pride. Through education, we strive to create informed communities where menstruation is understood as a natural and healthy process.",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=300&fit=crop"
+      }
+    ],
+    "marqueeImages": [
+      "/ourwork/2.jpg",
+      "/ourwork/4.jpg",
+      "/ourwork/6.jpg",
+      "/ourwork/10.jpg",
+      "/ourwork/11.jpg",
+      "/ourwork/12.jpg"
+    ]
+  },
+  {
+    "id": "livelihood",
+    "heroImage": "/livelihood/3.jpeg",
+    "heroTitle": "Livelihood",
+    "heroSubtitle": "Creating livelihoods, cultivating confidence",
+    "heroButtonText": "Explore Programs",
+    "heroButtonLink": "/donate",
+    "overviewTitle": "Empowering Livelihoods",
+    "overviewDescription": "At HAND, our livelihood development programs are designed to create sustainable income opportunities and foster long-term financial independence among women and youth in rural communities. Our approach focuses not only on technical training but also on building leadership, financial literacy, and digital readiness - ensuring that beneficiaries are self-reliant, skilled for the future, and resilient to socio-economic challenges.",
+    "whatWeDoDescription": "By equipping participants with practical skills in areas such as tailoring, handicrafts, digital media training, and micro-enterprise development, we help them confidently step into the workforce or start their own income-generating ventures.",
+    "overviewCards": [
+      {
+        "id": "vistaraku",
+        "title": "Vistaraku Making",
+        "description": "Training rural women in producing eco-friendly leaf plates and building sustainable green livelihoods.",
+        "fullDescription": "Our Vistaraku Making Training program supports rural women in gaining practical skills to produce eco-friendly leaf plates—locally known as Vistaraku—that are widely used for traditional functions, events, and sustainable food packaging. Through hands-on workshops, we train women in leaf collection, cleaning, processing, stitching, and plate finishing, ensuring high-quality and market-ready products. This sustainable livelihood initiative helps women earn a stable income from resources available within their own communities while promoting environmental conservation.",
+        "image": "/livelihood/making1.jpg"
+      },
+      {
+        "id": "digital-udaan",
+        "title": "Digital Udaan",
+        "description": "Empowering women and youth through digital literacy, technology skills, and online opportunities.",
+        "fullDescription": "Digital Udaan bridges the digital divide by equipping women and young people with essential computer skills, internet literacy, digital payments, online safety awareness, and access to government services. Participants learn how to leverage technology for education, employment, entrepreneurship, and communication, enabling them to confidently participate in today's digital economy.",
+        "image": "/livelihood/digital.jpg"
+      },
+      {
+        "id": "tailoring",
+        "title": "Tailoring & Fashion Design",
+        "description": "Helping women build careers and businesses through tailoring and garment-making skills.",
+        "fullDescription": "Our Tailoring & Fashion Design program provides practical training in stitching, garment construction, embroidery, alterations, and fashion design. Women gain the confidence to start home-based businesses, secure employment opportunities, and generate sustainable income for their families. The initiative promotes financial independence while nurturing creativity and entrepreneurship.",
+        "image": "/livelihood/tailor.jpg"
+      },
+      {
+        "id": "handicrafts",
+        "title": "Handicrafts Development",
+        "description": "Preserving traditional crafts while creating sustainable livelihood opportunities.",
+        "fullDescription": "Through handicrafts training, women learn to create decorative products, handmade gifts, home décor items, and traditional crafts. The program strengthens local artisan skills while connecting participants to markets, exhibitions, and entrepreneurial opportunities that help generate consistent income.",
+        "image": "/livelihood/making2.jpg"
+      },
+      {
+        "id": "food-processing",
+        "title": "Food Processing & Value Addition",
+        "description": "Supporting women in transforming local produce into market-ready products.",
+        "fullDescription": "Women are trained in food processing techniques including preparation, preservation, packaging, branding, and marketing of products such as pickles, snacks, spices, millet-based foods, and other local specialties. This initiative promotes micro-enterprise development and increases household incomes through value-added products.",
+        "image": "/livelihood/food.jpg"
+      },
+      {
+        "id": "financial-literacy",
+        "title": "Financial Literacy & Entrepreneurship",
+        "description": "Building financial confidence and entrepreneurial skills among women.",
+        "fullDescription": "This program focuses on savings, budgeting, banking services, digital payments, self-help group management, government schemes, and business planning. Women learn how to make informed financial decisions, manage enterprises effectively, and achieve long-term economic independence.",
+        "image": "/livelihood/meeting.jpg"
+      }
+    ],
+    "marqueeImages": [
+      "/ourwork/1.jpg",
+      "/ourwork/3.jpg",
+      "/ourwork/5.jpg",
+      "/ourwork/7.jpg",
+      "/ourwork/9.jpg"
+    ]
+  },
+  {
+    "id": "skill-development",
+    "heroImage": "/skill-development/1.jpg",
+    "heroTitle": "Skill Development",
+    "heroSubtitle": "Skilling India for a Global Future",
+    "heroButtonText": "Get Skilled",
+    "heroButtonLink": "/contact",
+    "overviewTitle": "Bridging the Skill Gap",
+    "overviewDescription": "At Hand, we empower individuals with practical skills that lead to sustainable livelihoods and self-reliance. Through hands-on training, vocational courses, and digital exposure, we equip youth and women with industry-relevant skills, enhance employability, and encourage entrepreneurship. Our programmes are designed to build confidence, create income opportunities, and enable long-term socio-economic growth within communities.",
+    "whatWeDoDescription": "We offer specialized training in high-demand fields focused on creative and digital economies. By combining technical instruction with practical projects, we prepare rural youth for sustainable careers.",
+    "overviewCards": [
+      {
+        "id": "photography",
+        "title": "Photography",
+        "description": "Our Photography Training programme equips youth and aspiring individuals with creative and technical skills to turn storytelling into a sustainable livelihood.",
+        "image": "https://images.unsplash.com/photo-1542038784424-fa00ed49fb9c?w=400&h=300&fit=crop"
+      },
+      {
+        "id": "digital-tech",
+        "title": "Digital Technology & Media",
+        "description": "Equipping youth with future-ready skills in content creation, photography, videography, and digital marketing for the modern economy.",
+        "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=400&h=300&fit=crop"
+      }
+    ],
+    "marqueeImages": [
+      "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1577896851231-70ef18881754?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1594708767771-a7502209ff51?w=400&h=300&fit=crop"
+    ]
+  },
+  {
+    "id": "rural-development",
+    "heroImage": "/rural-development/1.jpeg",
+    "heroTitle": "Transforming Villages, Empowering Lives",
+    "heroSubtitle": "Transforming Villages, Empowering Lives",
+    "heroButtonText": "See Our Work",
+    "heroButtonLink": "/donate",
+    "overviewTitle": "Rural Development",
+    "overviewDescription": "At Hand, we focus on strengthening village ecosystems through sustainable livelihoods, skill development, basic infrastructure support, and community-led initiatives. We work closely with rural communities to enhance income opportunities, promote self-reliance, preserve local resources, and improve overall quality of life-ensuring holistic and inclusive growth from the grassroots.",
+    "whatWeDoDescription": "Our rural development initiatives focus on critical infrastructure and resource management. We install water purification plants to ensure 100% access to safe drinking water and promote clean energy through solar adoption and biomass projects. We work closely with village committees to implement waste management systems and improve sanitation. By empowering local governance and integrating technology for better service delivery, we are building the smart villages of tomorrow.",
+    "overviewCards": [
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure Development",
+        "description": "Building and repairing essential community assets like roads, community halls, and sanitation facilities to improve quality of life.",
+        "image": "https://images.unsplash.com/photo-1621252179027-94459d27d3ee?w=400&h=300&fit=crop"
+      },
+      {
+        "id": "clean-water",
+        "title": "Clean Water & Sanitation",
+        "description": "Ensuring every household has access to safe drinking water and proper sanitation facilities to prevent disease.",
+        "image": "https://images.unsplash.com/photo-1635350736475-c8cef4b21906?w=400&h=300&fit=crop"
+      }
+    ],
+    "marqueeImages": [
+      "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1577896851231-70ef18881754?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1594708767771-a7502209ff51?w=400&h=300&fit=crop"
+    ]
+  },
+  {
+    "id": "climate-change",
+    "heroImage": "/climate/1.jpg",
+    "heroTitle": "Climate Change",
+    "heroSubtitle": "Our Commitment to Eco-Friendly Leaf Plate Making",
+    "heroButtonText": "Support Climate Action",
+    "heroButtonLink": "/donate",
+    "overviewTitle": "Climate Action",
+    "overviewDescription": "Climate change is one of the most pressing global challenges of our time. Rising temperatures, unpredictable weather patterns, deforestation, and increasing plastic pollution are all contributing to serious environmental damage. A major yet often overlooked cause of this problem is single-use plastic, especially plastic plates and disposable tableware that take hundreds of years to decompose.",
+    "whatWeDoDescription": "By encouraging the use of eco-friendly leaf plates, we aim to reduce plastic waste and environmental pollution, lower carbon footprint and greenhouse gas emissions, promote sustainable livelihoods through leaf plate making projects, support circular economy and zero-waste practices, and raise awareness about climate change and responsible consumption.",
+    "overviewCards": [
+      {
+        "id": "leaf-plates",
+        "title": "Eco-Friendly Leaf Plates",
+        "description": "Leaf plates, made from naturally fallen leaves such as areca or sal leaves, are 100% biodegradable, compostable, and plastic-free.",
+        "image": "/livelihood/6.png"
+      },
+      {
+        "id": "plastic-reduction",
+        "title": "Reducing Plastic Waste",
+        "description": "Offering a sustainable alternative to single-use plastics to prevent landfill accumulation and reduce pollution.",
+        "image": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=400&h=300&fit=crop"
+      },
+      {
+        "id": "sustainable-livelihoods",
+        "title": "Sustainable Livelihoods",
+        "description": "Creating green jobs for rural women through the production of biodegradable leaf plates.",
+        "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=300&fit=crop"
+      }
+    ],
+    "marqueeImages": [
+      "/ourwork/1.jpg",
+      "/ourwork/3.jpg",
+      "/ourwork/5.jpg",
+      "/ourwork/7.jpg",
+      "/ourwork/9.jpg"
+    ]
+  }
+]
