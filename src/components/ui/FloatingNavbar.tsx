@@ -158,7 +158,7 @@ export default function FloatingNavbar() {
           {[
             { label: 'Home', href: '/' },
             { label: 'About', href: '/about-us' },
-            { label: 'Climate Change', href: '/domains/education' },
+            { label: 'Climate Change', href: '/domains/climate-change' },
             { label: 'Livelihood', href: '/domains/livelihood' },
             { label: 'Volunteer', href: '/volunteer' },
             { label: 'Corporate Partners', href: '/partners' },

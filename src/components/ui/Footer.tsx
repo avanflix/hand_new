@@ -66,7 +66,7 @@ export default function Footer() {
               {[
                 { name: 'Livelihood', href: '/domains/livelihood' },
                 { name: 'Climate Change', href: '/domains/climate-change' },
-                { name: 'Education', href: '/domains/education' },
+                // { name: 'Education', href: '/domains/education' },
               ].map((l) => (
                 <li key={l.href}>
                   <Link href={l.href} className="text-white/50 text-sm hover:text-white transition-colors">
