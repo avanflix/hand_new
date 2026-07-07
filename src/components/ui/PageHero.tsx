@@ -19,13 +19,17 @@ export default function PageHero({
 }: PageHeroProps) {
   return (
     <section
-      className="relative overflow-hidden pt-36 pb-20 px-6 lg:px-10"
+      className="relative overflow-hidden pt-32 lg:pt-36 pb-16 lg:pb-20 px-6 lg:px-10"
       style={{
-        background: backgroundImage
-          ? `url(${backgroundImage}) center/cover no-repeat`
-          : dark
-          ? 'var(--clr-charcoal)'
-          : 'var(--clr-cream)',
+        backgroundImage: backgroundImage ? `url(${backgroundImage})` : undefined,
+        backgroundColor: !backgroundImage
+          ? dark
+            ? 'var(--clr-charcoal)'
+            : 'var(--clr-cream)'
+          : undefined,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center top', // Better on mobile
       }}
     >
       {/* Background Overlay */}
