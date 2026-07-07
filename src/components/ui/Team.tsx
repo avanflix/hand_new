@@ -15,13 +15,47 @@ type TeamMember = {
 }
 
 const coreTeam: TeamMember[] = [
-  { id: 'm1', name: 'Kamal C', role: 'Founder', location: 'Hyderabad, IND', avatar: '/team/KamalC2.png', linkedin: 'https://www.linkedin.com/in/kamal-c-747442171/' },
-  { id: 'm2', name: 'Sailaja D', role: 'Co-Founder', location: 'Hyderabad, IND', avatar: '/team/Sailaja.png', linkedin: 'https://www.linkedin.com/in/sailaja-dogiparthi-74669734/' },
-  { id: 'm3', name: 'Manpreet K', role: 'Executive Director', location: 'Hyderabad, IND', avatar: '/team/ManpreetK.png', linkedin: 'https://www.linkedin.com/in/manpreet-kaur-44a4aa1aa/' },
-  { id: 'm4', name: 'Arun C', role: 'Executive Director', location: 'Hyderabad, IND', avatar: '/team/ArunC.png', linkedin: 'https://www.linkedin.com/in/arun-kumar-chirikoti-91b507157/' },
-  { id: 'm5', name: 'Rohit C', role: 'Executive Director', location: 'Hyderabad, IND', avatar: '/team/Rohith.png', linkedin: 'https://www.linkedin.com/in/rohitchivukula25/' },
+  {
+    id: 'm1',
+    name: 'Kamal C',
+    role: 'Founder & President',
+    location: 'Hyderabad, IND',
+    avatar: '/team/KamalC2.png',
+    linkedin: 'https://www.linkedin.com/in/kamal-c-747442171/',
+  },
+  {
+    id: 'm2',
+    name: 'Manpreet K',
+    role: 'Co-Founder & Vice President',
+    location: 'Hyderabad, IND',
+    avatar: '/team/ManpreetK.png',
+    linkedin: 'https://www.linkedin.com/in/manpreet-kaur-44a4aa1aa/',
+  },
+  {
+    id: 'm3',
+    name: 'Sailaja D',
+    role: 'Executive Director',
+    location: 'Hyderabad, IND',
+    avatar: '/team/Sailaja.png',
+    linkedin: 'https://www.linkedin.com/in/sailaja-dogiparthi-74669734/',
+  },
+  {
+    id: 'm4',
+    name: 'Arun C',
+    role: 'Director – Programs & Operations',
+    location: 'Hyderabad, IND',
+    avatar: '/team/ArunC.png',
+    linkedin: 'https://www.linkedin.com/in/arun-kumar-chirikoti-91b507157/',
+  },
+  {
+    id: 'm5',
+    name: 'Rohit C',
+    role: 'Director – Strategy & Partnerships',
+    location: 'Hyderabad, IND',
+    avatar: '/team/Rohith.png',
+    linkedin: 'https://www.linkedin.com/in/rohitchivukula25/',
+  },
 ]
-
 export default function TeamSection() {
   const ref = useRef<HTMLDivElement>(null)
   useEffect(() => {

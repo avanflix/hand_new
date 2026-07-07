@@ -98,7 +98,7 @@ function DomainCard({ domain, index }: { domain: typeof domains[0]; index: numbe
       <div
         className="group relative rounded-3xl overflow-hidden cursor-pointer transition-all duration-500"
         style={{
-          height: hovered ? 340 : 240,
+          height: hovered ? 200 : 150,
           background: 'var(--clr-cream)',
           boxShadow: hovered ? '0 20px 60px rgba(0,0,0,0.12)' : '0 4px 16px rgba(0,0,0,0.04)',
         }}
@@ -115,7 +115,7 @@ function DomainCard({ domain, index }: { domain: typeof domains[0]; index: numbe
 
         <div className="relative z-10 h-full p-8 flex flex-col md:flex-row md:items-center gap-8">
           {/* Number */}
-          <span
+          <span 
             className="font-800 flex-shrink-0"
             style={{
               fontFamily: "'Playfair Display', serif",

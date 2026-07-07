@@ -2,6 +2,11 @@
 
 import { useEffect, useRef } from 'react'
 import Image from 'next/image'
+import {
+  Sprout,
+  ChartColumn,
+  Handshake
+} from 'lucide-react'
 
 function useReveal() {
   const ref = useRef<HTMLDivElement>(null)
@@ -38,7 +43,7 @@ export default function AboutSection() {
               <em style={{ color: 'var(--clr-earth)', fontStyle: 'italic' }}>one village at a time</em>
             </h2>
             <p className="text-gray-600 leading-relaxed mb-6 text-base">
-              HAND — Human Action for Need and Development — is a grassroots NGO
+              HAND — Human Action for Need and Development is a grassroots NGO
               dedicated to creating lasting change in rural India. We work at the
               intersection of livelihood, climate resilience, and community empowerment
               to build a self-sufficient future for every village we serve.
@@ -97,12 +102,32 @@ export default function AboutSection() {
             style={{ background: 'var(--clr-earth)' }}
           >
             {[
-              { icon: '🌱', title: 'Community-Led', desc: 'Every program is co-designed with the communities we serve, ensuring local ownership and long-term sustainability.' },
-              { icon: '📊', title: 'Evidence-Based', desc: 'We measure what matters — tracking real outcomes that translate into meaningful improvement in daily lives.' },
-              { icon: '🤝', title: 'Partnership-Driven', desc: 'Working with CSR partners, government bodies, and local leaders to maximize our collective reach and impact.' },
+              {
+                icon: Sprout,
+                title: 'Community-Led',
+                desc: 'Every program is co-designed with the communities we serve, ensuring local ownership and long-term sustainability.',
+              },
+              {
+                icon: ChartColumn,
+                title: 'Evidence-Based',
+                desc: 'We measure what matters tracking real outcomes that translate into meaningful improvement in daily lives.',
+              },
+              {
+                icon: Handshake,
+                title: 'Partnership-Driven',
+                desc: 'Working with CSR partners, government bodies, and local leaders to maximize our collective reach and impact.',
+              },
             ].map((v, i) => (
               <div key={i} className="flex flex-col gap-3">
-                <span className="text-3xl">{v.icon}</span>
+                <div
+                  className="w-14 h-14 rounded-full border-2 flex items-center justify-center bg-white/10 backdrop-blur-sm"
+                  style={{
+                    borderColor: 'rgba(255,255,255,0.35)',
+                    color: '#fff',
+                  }}
+                >
+                  <v.icon size={28} strokeWidth={2} />
+                </div>
                 <h3 className="text-white font-700 text-lg">{v.title}</h3>
                 <p className="text-white/70 text-sm leading-relaxed">{v.desc}</p>
               </div>

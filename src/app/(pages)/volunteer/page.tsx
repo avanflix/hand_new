@@ -4,6 +4,13 @@ import FloatingNavbar from '@/components/ui/FloatingNavbar'
 import Footer from '@/components/ui/Footer'
 import PageHero from '@/components/ui/PageHero'
 import { useState } from 'react'
+import {
+  GraduationCap,
+  Megaphone,
+  Camera,
+  Laptop,
+  PartyPopper,
+} from 'lucide-react'
 
 export default function Volunteer() {
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', city: '', skills: '', availability: '', message: '' })
@@ -17,7 +24,11 @@ export default function Volunteer() {
     const newErrors: Record<string, string> = {}
     if (!formData.name.trim()) newErrors.name = 'Required'
     if (!formData.email.trim()) newErrors.email = 'Required'
-    if (!formData.phone.trim()) newErrors.phone = 'Required'
+    if (!formData.phone.trim()) {
+      newErrors.phone = 'Required'
+    } else if (!/^\d{10}$/.test(formData.phone)) {
+      newErrors.phone = 'Phone number must be exactly 10 digits'
+    }
     if (!formData.city.trim()) newErrors.city = 'Required'
     if (!formData.skills.trim()) newErrors.skills = 'Required'
     if (!formData.availability.trim()) newErrors.availability = 'Required'
@@ -58,13 +69,38 @@ export default function Volunteer() {
             <h3 className="font-700 text-xl mb-8" style={{ color: 'var(--clr-charcoal)' }}>What you can contribute</h3>
             <div className="grid grid-cols-1 gap-4 mb-8">
               {[
-                { emoji: '🎓', title: 'Skills Training', desc: 'Teach vocational skills — tailoring, digital literacy, accounting' },
-                { emoji: '📣', title: 'Awareness Drives', desc: 'Lead community workshops on health, hygiene, and climate' },
-                { emoji: '📷', title: 'Documentation', desc: 'Photography, video, and storytelling from the field' },
-                { emoji: '💻', title: 'Remote Support', desc: 'Design, research, writing, and fundraising from anywhere' },
+                {
+                  icon: GraduationCap,
+                  title: 'Skills Training',
+                  desc: 'Teach vocational skills — tailoring, digital literacy, accounting',
+                },
+                {
+                  icon: Megaphone,
+                  title: 'Awareness Drives',
+                  desc: 'Lead community workshops on health, hygiene, and climate',
+                },
+                {
+                  icon: Camera,
+                  title: 'Documentation',
+                  desc: 'Photography, video, and storytelling from the field',
+                },
+                {
+                  icon: Laptop,
+                  title: 'Remote Support',
+                  desc: 'Design, research, writing, and fundraising from anywhere',
+                },
               ].map((item) => (
                 <div key={item.title} className="flex gap-4 p-5 rounded-2xl bg-white" style={{ boxShadow: '0 2px 12px rgba(0,0,0,0.05)' }}>
-                  <span className="text-2xl flex-shrink-0">{item.emoji}</span>
+                  <div
+                    className="w-12 h-12 rounded-xl border-2 flex items-center justify-center flex-shrink-0"
+                    style={{
+                      borderColor: 'var(--clr-earth)',
+                      color: 'var(--clr-earth)',
+                      background: 'rgba(89,79,63,0.05)',
+                    }}
+                  >
+                    <item.icon size={22} strokeWidth={2} />
+                  </div>
                   <div>
                     <h4 className="font-600 text-sm mb-1">{item.title}</h4>
                     <p className="text-xs text-gray-500">{item.desc}</p>
@@ -78,7 +114,16 @@ export default function Volunteer() {
           <div>
             {sent ? (
               <div className="rounded-3xl p-12 text-center bg-white" style={{ boxShadow: '0 4px 30px rgba(0,0,0,0.06)' }}>
-                <div className="text-5xl mb-4">🎉</div>
+                <div
+                  className="w-20 h-20 mx-auto mb-6 rounded-full border-2 flex items-center justify-center"
+                  style={{
+                    borderColor: 'var(--clr-earth)',
+                    color: 'var(--clr-earth)',
+                    background: 'rgba(89,79,63,0.05)',
+                  }}
+                >
+                  <PartyPopper size={40} strokeWidth={2} />
+                </div>
                 <h3 className="font-700 text-xl mb-2" style={{ color: 'var(--clr-earth)' }}>Application Received!</h3>
                 <p className="text-gray-500 text-sm">We&apos;ll be in touch within 3–5 business days.</p>
               </div>

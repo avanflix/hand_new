@@ -63,7 +63,7 @@ export default function StatsSection() {
 
         {/* Tagline */}
         <p className="text-center text-gray-500 mt-12 text-base max-w-xl mx-auto leading-relaxed">
-          Behind every number is a family whose life has changed — a woman with a livelihood,
+          Behind every number is a family whose life has changed a woman with a livelihood,
           a child who can learn, a village that breathes cleaner air.
         </p>
       </div>

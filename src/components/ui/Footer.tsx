@@ -15,7 +15,7 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="lg:col-span-2">
-            <Image src="/logo_bg_2.png" alt="HAND" width={80} height={80} className="mb-5 invert opacity-90" />
+            <Image src="/logo_bg_2.png" alt="HAND" width={120} height={120} className="mb-5 " />
             <p className="text-white/50 text-sm leading-relaxed max-w-sm mb-6">
               HAND — Human Action for Need and Development works to create sustainable,
               community-led change across rural India through livelihood, climate, and education programs.

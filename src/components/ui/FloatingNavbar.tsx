@@ -38,7 +38,7 @@ export default function FloatingNavbar() {
             alt="HAND"
             width={72}
             height={72}
-            className="h-15 w-auto object-contain"
+            className="h-12 w-auto object-contain"
           />
         </Link>
 

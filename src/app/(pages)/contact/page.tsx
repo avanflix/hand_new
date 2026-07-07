@@ -4,7 +4,14 @@ import { useState } from 'react'
 import FloatingNavbar from '@/components/ui/FloatingNavbar'
 import Footer from '@/components/ui/Footer'
 import PageHero from '@/components/ui/PageHero'
-import { LinkedinIcon, InstagramIcon, YoutubeIcon } from 'lucide-react'
+import {
+  LinkedinIcon,
+  InstagramIcon,
+  YoutubeIcon,
+  MapPin,
+  Mail,
+  Globe,
+} from 'lucide-react'
 
 export default function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', subject: '', message: '' })
@@ -19,6 +26,11 @@ export default function Contact() {
     e.preventDefault()
     const newErrors: Record<string, string> = {}
     if (!formData.name.trim()) newErrors.name = 'Name is required'
+    if (!formData.phone.trim()) {
+      newErrors.phone = 'Phone number is required'
+    } else if (!/^\d{10}$/.test(formData.phone)) {
+      newErrors.phone = 'Phone number must be exactly 10 digits'
+    }
     if (!formData.email.trim()) newErrors.email = 'Email is required'
     if (!formData.subject.trim()) newErrors.subject = 'Subject is required'
     if (!formData.message.trim()) newErrors.message = 'Message is required'
@@ -56,15 +68,92 @@ export default function Contact() {
 
       <section className="section-pad" style={{ background: 'var(--clr-cream)' }}>
         <div className="max-w-7xl mx-auto px-6 lg:px-10 grid grid-cols-1 lg:grid-cols-5 gap-16">
-          
+
           {/* Left — contact info */}
           <div className="lg:col-span-2 space-y-8">
             <div>
               <h3 className="font-700 text-lg mb-4" style={{ color: 'var(--clr-charcoal)' }}>Contact Information</h3>
-              <div className="space-y-4 text-sm text-gray-600">
-                <p>📍 Hyderabad, Telangana, India</p>
-                <p>📧 <a href="mailto:handngo.org@gmail.com" className="hover:underline" style={{ color: 'var(--clr-earth)' }}>handngo.org@gmail.com</a></p>
-                <p>🌐 <a href="https://handngo.org" className="hover:underline" style={{ color: 'var(--clr-earth)' }}>handngo.org</a></p>
+              <div className="space-y-5">
+                <div className="flex items-start gap-4">
+                  <div
+                    className="w-11 h-11 rounded-xl border-2 flex items-center justify-center flex-shrink-0"
+                    style={{
+                      borderColor: 'var(--clr-earth)',
+                      color: 'var(--clr-earth)',
+                      background: 'rgba(89,79,63,0.05)',
+                    }}
+                  >
+                    <MapPin size={20} strokeWidth={2} />
+                  </div>
+
+                  <div>
+                    <h4 className="text-sm font-600 mb-1" style={{ color: 'var(--clr-charcoal)' }}>
+                      Office Address
+                    </h4>
+                    <a
+                      href="https://www.google.com/maps/search/?api=1&query=Hyderabad,+Telangana,+India"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-gray-600 hover:underline transition-all"
+                    >
+                      Hyderabad, Telangana, India
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div
+                    className="w-11 h-11 rounded-xl border-2 flex items-center justify-center flex-shrink-0"
+                    style={{
+                      borderColor: 'var(--clr-earth)',
+                      color: 'var(--clr-earth)',
+                      background: 'rgba(89,79,63,0.05)',
+                    }}
+                  >
+                    <Mail size={20} strokeWidth={2} />
+                  </div>
+
+                  <div>
+                    <h4 className="text-sm font-600 mb-1" style={{ color: 'var(--clr-charcoal)' }}>
+                      Email
+                    </h4>
+                    <a
+                      href="mailto:hello@handngo.org"
+                      className="text-sm hover:underline"
+                      style={{ color: 'var(--clr-earth)' }}
+                    >
+                      hello@handngo.org
+                    </a>
+                  </div>
+                </div>
+
+                {/* <div className="flex items-start gap-4">
+                  <div
+                    className="w-11 h-11 rounded-xl border-2 flex items-center justify-center flex-shrink-0"
+                    style={{
+                      borderColor: 'var(--clr-earth)',
+                      color: 'var(--clr-earth)',
+                      background: 'rgba(89,79,63,0.05)',
+                    }}
+                  >
+                    <Globe size={20} strokeWidth={2} />
+                  </div>
+
+                  <div>
+                    <h4 className="text-sm font-600 mb-1" style={{ color: 'var(--clr-charcoal)' }}>
+                      Website
+                    </h4>
+                    <a
+                      href="https://handngo.org"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm hover:underline"
+                      style={{ color: 'var(--clr-earth)' }}
+                    >
+                      handngo.org
+                    </a>
+                  </div>
+                </div> */}
               </div>
             </div>
 

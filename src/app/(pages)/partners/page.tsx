@@ -2,16 +2,48 @@ import FloatingNavbar from '@/components/ui/FloatingNavbar'
 import Footer from '@/components/ui/Footer'
 import PageHero from '@/components/ui/PageHero'
 import Image from 'next/image'
+import {
+  ChartNoAxesCombined,
+  BadgeCheck,
+  Users,
+  Leaf,
+  Receipt,
+  Handshake,
+} from 'lucide-react'
 import Link from 'next/link'
 
 export default function Partners() {
   const benefits = [
-    { icon: '📈', title: 'Measurable Impact', desc: 'Detailed impact reports and on-ground data aligned with your CSR goals and SDG targets.' },
-    { icon: '🏷️', title: 'Brand Visibility', desc: 'Co-branded initiatives, digital and field-level presence across our programs.' },
-    { icon: '👥', title: 'Employee Engagement', desc: 'Structured volunteering programs for your teams with meaningful field experiences.' },
-    { icon: '🌿', title: 'ESG Alignment', desc: 'Programs designed around Environment, Social, and Governance frameworks.' },
-    { icon: '📋', title: '80G Tax Benefits', desc: 'All CSR donations are fully eligible for tax benefits under the Income Tax Act.' },
-    { icon: '🤝', title: 'Long-term Partnership', desc: 'We co-design programs, set milestones, and adapt based on community feedback.' },
+    {
+      icon: ChartNoAxesCombined,
+      title: 'Measurable Impact',
+      desc: 'Detailed impact reports and on-ground data aligned with your CSR goals and SDG targets.',
+    },
+    {
+      icon: BadgeCheck,
+      title: 'Brand Visibility',
+      desc: 'Co-branded initiatives, digital and field-level presence across our programs.',
+    },
+    {
+      icon: Users,
+      title: 'Employee Engagement',
+      desc: 'Structured volunteering programs for your teams with meaningful field experiences.',
+    },
+    {
+      icon: Leaf,
+      title: 'ESG Alignment',
+      desc: 'Programs designed around Environment, Social, and Governance frameworks.',
+    },
+    {
+      icon: Receipt,
+      title: '80G Tax Benefits',
+      desc: 'All CSR donations are fully eligible for tax benefits under the Income Tax Act.',
+    },
+    {
+      icon: Handshake,
+      title: 'Long-term Partnership',
+      desc: 'We co-design programs, set milestones, and adapt based on community feedback.',
+    },
   ]
 
   const partners = [
@@ -39,7 +71,16 @@ export default function Partners() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {benefits.map((b) => (
               <div key={b.title} className="rounded-3xl p-7 bg-white transition-all hover:shadow-lg hover:-translate-y-1" style={{ boxShadow: '0 2px 16px rgba(0,0,0,0.05)' }}>
-                <span className="text-3xl block mb-4">{b.icon}</span>
+                <div
+                  className="w-14 h-14 rounded-2xl border-2 flex items-center justify-center mb-5"
+                  style={{
+                    borderColor: 'var(--clr-earth)',
+                    color: 'var(--clr-earth)',
+                    background: 'rgba(89, 79, 63, 0.05)',
+                  }}
+                >
+                  <b.icon size={26} strokeWidth={2} />
+                </div>
                 <h3 className="font-700 text-base mb-2">{b.title}</h3>
                 <p className="text-sm text-gray-500 leading-relaxed">{b.desc}</p>
               </div>

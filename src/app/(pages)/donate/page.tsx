@@ -4,7 +4,13 @@ import { useState } from 'react'
 import Image from 'next/image'
 import FloatingNavbar from '@/components/ui/FloatingNavbar'
 import Footer from '@/components/ui/Footer'
-import PageHero from '@/components/ui/PageHero'
+import PageHero from '@/components/ui/PageHero';
+import {
+  Scissors,
+  Leaf,
+  BookOpen,
+  Settings,
+} from 'lucide-react'
 
 const presetAmounts = ['500', '1000', '2500', '5000']
 
@@ -142,13 +148,42 @@ export default function DonatePage() {
               <h3 className="font-700 text-xl mb-4" style={{ color: 'var(--clr-charcoal)' }}>Where your money goes</h3>
               <div className="space-y-4">
                 {[
-                  { emoji: '🧵', label: 'Livelihood Training', pct: '40%', desc: 'Vocational skills, tailoring, and micro-enterprise support' },
-                  { emoji: '🌿', label: 'Climate Programs', pct: '30%', desc: 'Eco-friendly initiatives and environmental awareness' },
-                  { emoji: '📚', label: 'Education Support', pct: '20%', desc: 'Digital literacy and inclusive learning environments' },
-                  { emoji: '⚙️', label: 'Operations & Reach', pct: '10%', desc: 'Enabling us to scale and sustain programs' },
+                  {
+                    icon: Scissors,
+                    label: 'Livelihood Training',
+                    pct: '40%',
+                    desc: 'Vocational skills, tailoring, and micro-enterprise support',
+                  },
+                  {
+                    icon: Leaf,
+                    label: 'Climate Programs',
+                    pct: '30%',
+                    desc: 'Eco-friendly initiatives and environmental awareness',
+                  },
+                  {
+                    icon: BookOpen,
+                    label: 'Education Support',
+                    pct: '20%',
+                    desc: 'Digital literacy and inclusive learning environments',
+                  },
+                  {
+                    icon: Settings,
+                    label: 'Operations & Reach',
+                    pct: '10%',
+                    desc: 'Enabling us to scale and sustain programs',
+                  },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-4 p-4 rounded-2xl bg-white" style={{ boxShadow: '0 2px 12px rgba(0,0,0,0.04)' }}>
-                    <span className="text-2xl flex-shrink-0">{item.emoji}</span>
+                    <div
+                      className="w-12 h-12 rounded-xl border-2 flex items-center justify-center"
+                      style={{
+                        borderColor: 'var(--clr-earth)',
+                        color: 'var(--clr-earth)',
+                        background: 'rgba(89,79,63,0.05)',
+                      }}
+                    >
+                      <item.icon size={22} strokeWidth={2} />
+                    </div>
                     <div className="flex-1">
                       <div className="flex justify-between mb-1">
                         <span className="font-600 text-sm">{item.label}</span>

@@ -134,7 +134,7 @@ export default function DomainLayout({
             Help us do more
           </h2>
           <p className="text-white/70 mb-8 leading-relaxed">
-            Your contribution directly funds programs like this — reaching more families, more villages, more lives.
+            Your contribution directly funds programs like this reaching more families, more villages, more lives.
           </p>
           <Link href="/donate" className="inline-block px-8 py-3.5 rounded-full text-sm font-600 text-white transition-all hover:scale-105" style={{ background: 'var(--clr-amber)' }}>
             Donate Now →

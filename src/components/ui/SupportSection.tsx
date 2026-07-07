@@ -3,11 +3,12 @@
 import { useEffect, useRef } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { HeartHandshake, HandHeart, Building2 } from 'lucide-react'
 
 const ways = [
   {
     id: 'donate',
-    emoji: '💛',
+    icon: HeartHandshake,
     title: 'Donate',
     desc: 'Your contribution funds livelihood training, climate programs, and educational support for rural communities.',
     cta: 'Donate Now',
@@ -16,16 +17,16 @@ const ways = [
   },
   {
     id: 'volunteer',
-    emoji: '🤲',
+    icon: HandHeart,
     title: 'Volunteer',
-    desc: 'Share your skills and time on the ground — join field programs, awareness drives, and community initiatives.',
+    desc: 'Share your skills and time on the ground join field programs, awareness drives, and community initiatives.',
     cta: 'Join as Volunteer',
     href: '/volunteer',
     image: '/livelihood/meeting.jpg',
   },
   {
     id: 'partner',
-    emoji: '🏢',
+    icon: Building2,
     title: 'Partner',
     desc: 'Align your CSR with grassroots impact. Co-create programs that move the needle on rural development.',
     cta: 'Become a Partner',
@@ -76,11 +77,23 @@ export default function SupportSection() {
                   className="object-cover group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.4), transparent)' }} />
-                <span className="absolute bottom-4 left-4 text-4xl">{w.emoji}</span>
+                <div
+                  className="absolute top-5 left-5 w-14 h-14 rounded-full border-2 backdrop-blur-sm flex items-center justify-center shadow-md z-10"
+                  style={{
+                    borderColor: 'rgba(255,255,255,0.35)',
+                    color: '#fff',
+                  }}
+                >
+                  <w.icon
+                    size={28}
+                    strokeWidth={2}
+                    color="currentColor"
+                  />
+                </div>
               </div>
 
               {/* Content */}
-              <div className="p-6">
+              < div className="p-6" >
                 <h3 className="font-700 text-xl mb-3" style={{ color: 'var(--clr-charcoal)' }}>{w.title}</h3>
                 <p className="text-gray-500 text-sm leading-relaxed mb-6">{w.desc}</p>
                 <Link
@@ -99,7 +112,7 @@ export default function SupportSection() {
         <p className="text-center text-gray-400 text-xs mt-10 tracking-wide">
           Donations are eligible for 80G tax exemption under the Income Tax Act, India.
         </p>
-      </div>
-    </section>
+      </div >
+    </section >
   )
 }

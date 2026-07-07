@@ -194,7 +194,6 @@ export default function JoinUsSection() {
                 ))}
               </div>
 
-              {/* Volunteer button */}
               <button className="w-full py-3 bg-gradient-to-r from-hand-neutral-600 to-hand-neutral-700 border-2 border-hand-neutral-500 rounded-lg font-semibold text-hand-neutral-500 transition-all duration-300 transform hover:scale-105 shadow-lg">
                 Join as Volunteer
               </button>
