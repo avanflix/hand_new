@@ -137,6 +137,7 @@ export default function DonatePage() {
         title="Every rupee builds a"
         titleAccent="better future"
         subtitle="Support sustainable livelihood, climate action, and community programs that directly reach rural families across India."
+         backgroundImage="/images//hero-bg.jpg"
       />
 
       <section className="section-pad" style={{ background: 'var(--clr-cream)' }}>
@@ -200,11 +201,11 @@ export default function DonatePage() {
             </div>
 
             <div className="relative rounded-3xl overflow-hidden h-52">
-              <Image src="/livelihood/4.png" alt="Impact" fill className="object-cover" />
+              {/* <Image src="/images/" alt="Impact" fill className="object-cover" /> */}
               <div className="absolute inset-0 flex items-end p-6" style={{ background: 'linear-gradient(to top, rgba(45,74,62,0.9), transparent)' }}>
                 <p className="text-white text-sm leading-relaxed">
-                  "Before HAND, I had no income. Now I run my own tailoring unit and support my family."
-                  <span className="block mt-1 opacity-70">— Lakshmi, Beneficiary, Telangana</span>
+                  "HANDలో చేరడానికి ముందు నాకు ఎటువంటి ఆదాయం ఉండేది కాదు. ఇప్పుడు నేను సొంతంగా టైలరింగ్ యూనిట్‌ను నడుపుతూ నా కుటుంబాన్ని పోషించుకుంటున్నాను."
+                  <span className="block mt-1 opacity-70">— Lakshmi, Beneficiary, Andhra Pradesh</span>
                 </p>
               </div>
             </div>

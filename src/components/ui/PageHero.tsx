@@ -1,21 +1,54 @@
 'use client'
 
 interface PageHeroProps {
-  eyebrow: string
-  title: string
-  titleAccent?: string
-  subtitle?: string
-  dark?: boolean
+  eyebrow: string;
+  title: string;
+  titleAccent?: string;
+  subtitle: string;
+  backgroundImage?: string;
+  dark?: boolean;
 }
 
-export default function PageHero({ eyebrow, title, titleAccent, subtitle, dark = false }: PageHeroProps) {
+export default function PageHero({
+  eyebrow,
+  title,
+  titleAccent,
+  subtitle,
+  backgroundImage,
+  dark = false,
+}: PageHeroProps) {
   return (
     <section
-      className="pt-36 pb-20 px-6 lg:px-10"
-      style={{ background: dark ? 'var(--clr-charcoal)' : 'var(--clr-cream)' }}
+      className="relative overflow-hidden pt-36 pb-20 px-6 lg:px-10"
+      style={{
+        background: backgroundImage
+          ? `url(${backgroundImage}) center/cover no-repeat`
+          : dark
+          ? 'var(--clr-charcoal)'
+          : 'var(--clr-cream)',
+      }}
     >
-      <div className="max-w-7xl mx-auto">
-        <span className="eyebrow">{eyebrow}</span>
+      {/* Background Overlay */}
+      {backgroundImage && (
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              'linear-gradient(90deg, rgba(0,0,0,0.65), rgba(0,0,0,0.45))',
+          }}
+        />
+      )}
+
+      <div className="relative z-10 max-w-7xl mx-auto">
+        <span
+          className="eyebrow"
+          style={{
+            color: backgroundImage || dark ? '#FBBF24' : undefined,
+          }}
+        >
+          {eyebrow}
+        </span>
+
         <h1
           className="mt-4 max-w-2xl"
           style={{
@@ -24,27 +57,44 @@ export default function PageHero({ eyebrow, title, titleAccent, subtitle, dark =
             fontSize: 'clamp(2.5rem, 6vw, 4.5rem)',
             lineHeight: 1.05,
             letterSpacing: '-0.02em',
-            color: dark ? 'white' : 'var(--clr-charcoal)',
+            color: backgroundImage || dark ? '#fff' : 'var(--clr-charcoal)',
           }}
         >
           {title}
           {titleAccent && (
             <>
               {' '}
-              <em style={{ fontStyle: 'italic', color: 'var(--clr-amber)' }}>{titleAccent}</em>
+              <em
+                style={{
+                  fontStyle: 'italic',
+                  color: 'var(--clr-amber)',
+                }}
+              >
+                {titleAccent}
+              </em>
             </>
           )}
         </h1>
+
         {subtitle && (
-          <p className="mt-6 max-w-xl text-base leading-relaxed" style={{ color: dark ? 'rgba(255,255,255,0.6)' : '#6B7280' }}>
+          <p
+            className="mt-6 max-w-xl text-base leading-relaxed"
+            style={{
+              color:
+                backgroundImage || dark
+                  ? 'rgba(255,255,255,0.85)'
+                  : '#6B7280',
+            }}
+          >
             {subtitle}
           </p>
         )}
+
         <div
           className="mt-8 h-1 w-16 rounded-full"
           style={{ background: 'var(--clr-amber)' }}
         />
       </div>
     </section>
-  )
+  );
 }

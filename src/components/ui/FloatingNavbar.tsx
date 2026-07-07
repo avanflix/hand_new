@@ -30,7 +30,7 @@ export default function FloatingNavbar() {
         boxShadow: scrolled ? '0 1px 0 rgba(0,0,0,0.08)' : 'none',
       }}
     >
-      <nav className="max-w-7xl mx-auto px-6 lg:px-10  flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-6 lg:px-10 py-2  flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex-shrink-0">
           <Image
@@ -99,16 +99,18 @@ export default function FloatingNavbar() {
             </button>
 
             {activeDropdown === 'involved' && (
-              <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-xl border border-black/5 overflow-hidden">
-                {getInvolvedItems.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className="block px-4 py-3 text-sm text-gray-700 hover:bg-stone-50 hover:text-amber-600 transition-colors"
-                  >
-                    {item.name}
-                  </Link>
-                ))}
+              <div className="absolute top-full left-0 w-56 pt-2">
+                <div className="bg-white rounded-xl shadow-xl border border-black/5 overflow-hidden">
+                  {getInvolvedItems.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      className="block px-4 py-3 text-sm text-gray-700 hover:bg-stone-50 hover:text-amber-600 transition-colors"
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                </div>
               </div>
             )}
           </div>

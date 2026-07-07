@@ -76,13 +76,13 @@ export default function AboutSection() {
           <div ref={rightRef} className="reveal reveal-right">
             <div className="grid grid-cols-2 gap-4">
               <div className="relative h-52 rounded-2xl overflow-hidden">
-                <Image src="/livelihood/making1.jpg" alt="Community work" fill className="object-cover" />
+                <Image src="/images/meeting1.jpg" alt="Community work" fill className="object-cover" />
               </div>
               <div className="relative h-52 rounded-2xl overflow-hidden mt-8">
-                <Image src="/livelihood/tailor.jpg" alt="Tailoring" fill className="object-cover" />
+                <Image src="/images/meeting2.jpg" alt="Tailoring" fill className="object-cover" />
               </div>
               <div className="relative h-52 rounded-2xl overflow-hidden -mt-4">
-                <Image src="/livelihood/meeting.jpg" alt="Community meeting" fill className="object-cover" />
+                <Image src="/images/gudivada.jpg" alt="Community meeting" fill className="object-cover" />
               </div>
               <div
                 className="h-52 rounded-2xl flex flex-col items-center justify-center text-white -mt-12 p-6"

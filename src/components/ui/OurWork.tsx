@@ -9,7 +9,7 @@ const images1 = [
 ]
 const images2 = [
   '/ourwork/7.jpg', '/ourwork/8.jpg', '/ourwork/9.jpg',
-  '/ourwork/10.jpg', '/ourwork/12.jpg',
+  '/ourwork/10.jpg', '/ourwork/12.jpg','/ourwork/15.jpg'
 ]
 
 export default function OurWorkSection() {

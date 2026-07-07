@@ -59,6 +59,7 @@ export default function Partners() {
         title="Build Impact"
         titleAccent="Together"
         subtitle="Partner with HAND to fulfill your CSR mandate while creating measurable, sustainable change in rural India."
+         backgroundImage="/images//hero-bg.jpg"
       />
 
       {/* Benefits */}

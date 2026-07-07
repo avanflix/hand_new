@@ -147,7 +147,7 @@ export default function PrivacyPolicy() {
                 <p>If you have any questions about this Privacy Policy or our data practices, please contact us:</p>
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <p><strong>Email:</strong> contact@hand.org.in</p>
-                  <p><strong>Phone:</strong> +91 70367 77677</p>
+                  {/* <p><strong>Phone:</strong> +91 70367 77677</p> */}
                   <p><strong>Address:</strong> Villa No : 178, Chitrapuri Row House Rd, Chitrapuri Colony, Hyderabad, Telangana 500104</p>
                 </div>
               </div>

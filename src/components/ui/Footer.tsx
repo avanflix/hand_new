@@ -11,7 +11,7 @@ export default function Footer() {
     <footer style={{ background: 'var(--clr-charcoal)', color: 'white' }}>
       {/* Main */}
       <div className="max-w-7xl mx-auto px-6 lg:px-10 pt-16 pb-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
 
           {/* Brand */}
           <div className="lg:col-span-2">
@@ -75,6 +75,8 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
+          </div>
+          <div>
             <h4 className="text-white font-600 text-sm uppercase tracking-widest mb-5">Legal</h4>
             <ul className="space-y-3">
               {[

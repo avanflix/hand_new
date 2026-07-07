@@ -143,16 +143,51 @@ export default function DomainLayout({
       </section>
 
       {/* Modal */}
+      {/* Modal */}
       {modalCard && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
-          <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setModalCard(null)} />
-          <div className="relative bg-white rounded-3xl shadow-2xl w-full max-w-xl max-h-[80vh] overflow-y-auto">
-            <div className="sticky top-0 bg-white border-b border-gray-100 p-6 flex justify-between items-center">
-              <h3 className="font-700 text-lg">{modalCard.title}</h3>
-              <button onClick={() => setModalCard(null)} className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-gray-200 transition-colors">✕</button>
+          {/* Overlay */}
+          <div
+            className="absolute inset-0 bg-black/70 backdrop-blur-sm"
+            onClick={() => setModalCard(null)}
+          />
+
+          {/* Modal */}
+          <div className="relative bg-white rounded-3xl shadow-2xl w-full max-w-3xl max-h-[90vh] overflow-y-auto animate-in fade-in zoom-in duration-300">
+
+            {/* Image */}
+            <div className="relative w-full h-72 md:h-96">
+              <Image
+                src={modalCard.image}
+                alt={modalCard.title}
+                fill
+                className="object-cover"
+              />
+
+              {/* Dark Gradient */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+
+              {/* Close Button */}
+              <button
+                onClick={() => setModalCard(null)}
+                className="absolute top-5 right-5 w-10 h-10 rounded-full bg-white/90 hover:bg-white flex items-center justify-center text-black shadow-lg transition"
+              >
+                ✕
+              </button>
+
+              {/* Title */}
+              <div className="absolute bottom-6 left-6 right-6">
+                <h3 className="text-3xl font-bold text-white">
+                  {modalCard.title}
+                </h3>
+              </div>
             </div>
+
+            {/* Content */}
             <div className="p-8">
-              <p className="text-gray-600 leading-relaxed whitespace-pre-wrap">{modalCard.fullDescription}</p>
+              <p className="text-gray-600 leading-8 whitespace-pre-wrap">
+                {modalCard.fullDescription}
+              </p>
             </div>
           </div>
         </div>

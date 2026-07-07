@@ -15,6 +15,7 @@ export default function AboutUs() {
         title="Human Action for"
         titleAccent="Need & Development"
         subtitle="A grassroots NGO driving sustainable change through livelihood, climate action, and community empowerment across rural India."
+        backgroundImage="/images//hero-bg.jpg"
       />
 
       {/* Mission & Vision */}

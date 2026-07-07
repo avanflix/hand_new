@@ -6,14 +6,14 @@ import Link from 'next/link'
 
 const slides = [
   {
-    src: '/livelihood/3.jpeg',
+    src: '/livelihood/6.png',
     alt: 'Livelihood Programs',
     tag: 'Livelihood',
     headline: ['Empowering', 'Rural Women', 'to Thrive'],
     sub: 'Creating sustainable income through tailoring, handicrafts, and micro-enterprise development.',
   },
   {
-    src: '/climate/1.jpg',
+    src: '/climate/1.png',
     alt: 'Climate Programs',
     tag: 'Climate Action',
     headline: ['Protecting', 'Our Planet', 'Together'],

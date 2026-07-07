@@ -26,7 +26,7 @@ const coreTeam: TeamMember[] = [
   {
     id: 'm2',
     name: 'Manpreet K',
-    role: 'Co-Founder & Vice President',
+    role: 'Co-Founder',
     location: 'Hyderabad, IND',
     avatar: '/team/ManpreetK.png',
     linkedin: 'https://www.linkedin.com/in/manpreet-kaur-44a4aa1aa/',
@@ -94,7 +94,7 @@ export default function TeamSection() {
                 />
                 <div
                   className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4"
-                  style={{ background: 'linear-gradient(to top, rgba(45,74,62,0.9), transparent)' }}
+                  style={{ background: 'linear-gradient(to top, rgba(224, 224, 224, 0.9), transparent)' }}
                 >
                   <Link href={m.linkedin} target="_blank" rel="noopener">
                     <LinkedinIcon className="w-6 h-6 text-white" />
