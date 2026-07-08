@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image'
 
 interface PageHeroProps {
   eyebrow: string;
@@ -19,7 +20,7 @@ export default function PageHero({
 }: PageHeroProps) {
   return (
     <section
-      className="relative overflow-hidden pt-32 lg:pt-36 pb-16 lg:pb-20 px-6 lg:px-10"
+      className="relative min-h-screen lg:h-screen overflow-hidden flex items-center px-6 lg:px-10"
       style={{
         backgroundImage: backgroundImage ? `url(${backgroundImage})` : undefined,
         backgroundColor: !backgroundImage
@@ -34,12 +35,12 @@ export default function PageHero({
     >
       {/* Background Overlay */}
       {backgroundImage && (
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              'linear-gradient(90deg, rgba(0,0,0,0.65), rgba(0,0,0,0.45))',
-          }}
+        <Image
+          src={backgroundImage}
+          alt={title}
+          fill
+          priority
+          className="object-cover"
         />
       )}
 
@@ -47,13 +48,13 @@ export default function PageHero({
         <span
           className="eyebrow"
           style={{
-            color: backgroundImage || dark ? '#FBBF24' : undefined,
+            color: backgroundImage || dark ? '#2c2920' : undefined,
           }}
         >
           {eyebrow}
         </span>
 
-        <h1
+        {/* <h1
           className="mt-4 max-w-2xl"
           style={{
             fontFamily: "'Playfair Display', serif",
@@ -78,11 +79,11 @@ export default function PageHero({
               </em>
             </>
           )}
-        </h1>
+        </h1> */}
 
         {subtitle && (
           <p
-            className="mt-6 max-w-xl text-base leading-relaxed"
+            className="mt-60 max-w-xl text-base leading-relaxed"
             style={{
               color:
                 backgroundImage || dark

@@ -4,12 +4,12 @@ import Image from 'next/image'
 import { useEffect, useRef } from 'react'
 
 const images1 = [
-  '/ourwork/1.jpg', '/ourwork/2.jpg', '/ourwork/3.jpg',
-  '/ourwork/4.jpg', '/ourwork/5.jpg',
+  '/ourwork/tailor2.jpg', '/ourwork/munnangi1.jpg', '/ourwork/kolakaluru6.jpg',
+  '/ourwork/gudivada1.jpg', '/ourwork/digital_udaan2.jpg',
 ]
 const images2 = [
-  '/ourwork/7.jpg', '/ourwork/8.jpg', '/ourwork/9.jpg',
-  '/ourwork/10.jpg', '/ourwork/12.jpg','/ourwork/15.jpg'
+  '/ourwork/health.png', '/ourwork/school3.jpg', '/ourwork/food2.png',
+  '/ourwork/climate.jpeg', '/ourwork/school5.jpg','/ourwork/food4.png'
 ]
 
 export default function OurWorkSection() {

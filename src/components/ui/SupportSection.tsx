@@ -13,7 +13,7 @@ const ways = [
     desc: 'Your contribution funds livelihood training, climate programs, and educational support for rural communities.',
     cta: 'Donate Now',
     href: '/donate',
-    image: '/livelihood/food.jpg',
+    image: '/images/donate.png',
   },
   {
     id: 'volunteer',
@@ -22,7 +22,7 @@ const ways = [
     desc: 'Share your skills and time on the ground join field programs, awareness drives, and community initiatives.',
     cta: 'Join as Volunteer',
     href: '/volunteer',
-    image: '/livelihood/meeting.jpg',
+    image: '/images/volunteer.png',
   },
   {
     id: 'partner',
@@ -31,7 +31,7 @@ const ways = [
     desc: 'Align your CSR with grassroots impact. Co-create programs that move the needle on rural development.',
     cta: 'Become a Partner',
     href: '/partners',
-    image: '/livelihood/digital.jpg',
+    image: '/images/partner.png',
   },
 ]
 

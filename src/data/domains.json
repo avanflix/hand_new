@@ -40,11 +40,11 @@
       }
     ],
     "marqueeImages": [
-      "/ourwork/1.jpg",
-      "/ourwork/3.jpg",
-      "/ourwork/5.jpg",
-      "/ourwork/7.jpg",
-      "/ourwork/9.jpg"
+      "/ourwork/tailor2.jpg",
+      "/ourwork/munnangi1.jpg",
+      "/ourwork/kolakaluru6.jpg",
+      "/ourwork/gudivada1.jpg",
+      "/ourwork/digital_udaan2.jpg"
     ]
   },
   {
@@ -65,20 +65,17 @@
         "image": "/livelihood/leaf_plates.jpeg",
         "fullDescription": "HAND promotes the production and use of eco-friendly leaf plates as a sustainable alternative to disposable plastic and thermocol tableware. These plates are handcrafted using naturally fallen Sal, Palash, and other locally available leaves, ensuring that no trees are cut during the collection process. The leaves are carefully cleaned, stitched, and heat-pressed into durable plates suitable for serving food at homes, restaurants, events, and community gatherings.\n\nUnlike plastic products that remain in the environment for hundreds of years, leaf plates naturally decompose within a few months and enrich the soil as organic matter. Their production requires minimal energy, generates almost no waste, and significantly reduces environmental pollution. By encouraging the adoption of biodegradable leaf plates, HAND supports cleaner communities, promotes sustainable consumption, and contributes to reducing the harmful impact of single-use plastics on ecosystems."
       },
-{
-  "id": "environmental-conservation",
-  "title": "Environmental Conservation",
-  "description": "Protecting ecosystems through tree plantation, biodiversity conservation, waste management, and community-driven environmental initiatives.",
-  "image": "/climate/reduce_plastic.jpeg",
-  "fullDescription": "Environmental conservation is at the heart of HAND's commitment to building healthier, greener, and more resilient communities. We work alongside local communities, schools, volunteers, and partner organizations to protect natural resources, restore degraded ecosystems, and promote sustainable environmental practices. Our initiatives include tree plantation drives, biodiversity conservation, waste management awareness, water resource protection, and campaigns that encourage responsible use of natural resources.\n\nBy educating communities about the importance of preserving forests, reducing pollution, conserving water, and protecting wildlife, HAND empowers individuals to become active stewards of the environment. We believe that lasting environmental change begins with community participation and awareness. Through collaborative action, sustainable practices, and climate-conscious development, we strive to create cleaner surroundings, healthier ecosystems, and a sustainable future for generations to come."
-}
+      {
+        "id": "environmental-conservation",
+        "title": "Environmental Conservation",
+        "description": "Protecting ecosystems through tree plantation, biodiversity conservation, waste management, and community-driven environmental initiatives.",
+        "image": "/climate/reduce_plastic.jpeg",
+        "fullDescription": "Environmental conservation is at the heart of HAND's commitment to building healthier, greener, and more resilient communities. We work alongside local communities, schools, volunteers, and partner organizations to protect natural resources, restore degraded ecosystems, and promote sustainable environmental practices. Our initiatives include tree plantation drives, biodiversity conservation, waste management awareness, water resource protection, and campaigns that encourage responsible use of natural resources.\n\nBy educating communities about the importance of preserving forests, reducing pollution, conserving water, and protecting wildlife, HAND empowers individuals to become active stewards of the environment. We believe that lasting environmental change begins with community participation and awareness. Through collaborative action, sustainable practices, and climate-conscious development, we strive to create cleaner surroundings, healthier ecosystems, and a sustainable future for generations to come."
+      }
     ],
     "marqueeImages": [
-      "/ourwork/1.jpg",
-      "/ourwork/3.jpg",
-      "/ourwork/5.jpg",
-      "/ourwork/7.jpg",
-      "/ourwork/9.jpg"
+      "/ourwork/health.png", "/ourwork/school3.jpg", "/ourwork/food2.png",
+  "/ourwork/climate.jpeg", "/ourwork/school5.jpg","/ourwork/food4.png"
     ]
   }
 ]

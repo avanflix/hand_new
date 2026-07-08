@@ -60,7 +60,7 @@ export default function Volunteer() {
         title="Volunteer with"
         titleAccent="HAND"
         subtitle="Every skill counts. Join our community of changemakers working on the ground across rural India."
-         backgroundImage="/images//hero-bg.jpg"
+         backgroundImage="/images/volunteer.png"
       />
 
       <section className="section-pad" style={{ background: 'var(--clr-cream)' }}>

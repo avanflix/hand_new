@@ -3,7 +3,7 @@
 import FloatingNavbar from '@/components/ui/FloatingNavbar'
 import Landing from '@/components/ui/Landing'
 import About from '@/components/ui/About'
-import Stats from '@/components/ui/Stats'
+// import Stats from '@/components/ui/Stats'
 import WhatWeDo from '@/components/ui/WhatWeDo'
 import OurWork from '@/components/ui/OurWork'
 import Partners from '@/components/ui/Partners'
@@ -16,7 +16,7 @@ export default function Home() {
       <FloatingNavbar />
       <Landing />
       <About />
-      <Stats />
+      {/* <Stats /> */}
       <WhatWeDo />
       <OurWork />
       <Partners />

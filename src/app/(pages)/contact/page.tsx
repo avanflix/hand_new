@@ -64,7 +64,7 @@ export default function Contact() {
   return (
     <div className="w-full">
       <FloatingNavbar />
-      <PageHero eyebrow="Reach Out" title="Let's Start a" titleAccent="Conversation" subtitle="Whether you want to volunteer, partner, donate, or simply learn more — we'd love to hear from you."  backgroundImage="/images//hero-bg.jpg"/>
+      <PageHero eyebrow="Reach Out" title="Let's Start a" titleAccent="Conversation" subtitle="Whether you want to volunteer, partner, donate, or simply learn more — we'd love to hear from you." backgroundImage="/images/contact_img.png" />
 
       <section className="section-pad" style={{ background: 'var(--clr-cream)' }}>
         <div className="max-w-7xl mx-auto px-6 lg:px-10 grid grid-cols-1 lg:grid-cols-5 gap-16">

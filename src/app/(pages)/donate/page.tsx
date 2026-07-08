@@ -137,7 +137,7 @@ export default function DonatePage() {
         title="Every rupee builds a"
         titleAccent="better future"
         subtitle="Support sustainable livelihood, climate action, and community programs that directly reach rural families across India."
-         backgroundImage="/images//hero-bg.jpg"
+         backgroundImage="/images/donate.png"
       />
 
       <section className="section-pad" style={{ background: 'var(--clr-cream)' }}>

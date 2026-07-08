@@ -79,7 +79,7 @@ export default function AboutSection() {
                 <Image src="/images/meeting1.jpg" alt="Community work" fill className="object-cover" />
               </div>
               <div className="relative h-52 rounded-2xl overflow-hidden mt-8">
-                <Image src="/images/meeting2.jpg" alt="Tailoring" fill className="object-cover" />
+                <Image src="/ourwork/education.jpg" alt="Tailoring" fill className="object-cover" />
               </div>
               <div className="relative h-52 rounded-2xl overflow-hidden -mt-4">
                 <Image src="/images/gudivada.jpg" alt="Community meeting" fill className="object-cover" />
