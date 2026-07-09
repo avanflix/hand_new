@@ -1,17 +1,98 @@
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
 import "./globals.css";
-import Script from 'next/script'
-
-const dmSans = DM_Sans({
-  weight: ['300', '400', '500', '600', '700'],
-  subsets: ["latin"],
-  variable: "--font-dm-sans",
-});
+import OrganizationSchema from "@/components/seo/OrganizationSchema";
+import WebsiteSchema from "@/components/seo/WebsiteSchema";
+const siteUrl = "https://www.handngo.org";
 
 export const metadata: Metadata = {
-  title: "HAND - Human Action for Need and Development",
-  description: "Making a difference in rural communities through livelihood, climate action, and education.",
+  metadataBase: new URL(siteUrl),
+
+  title: {
+    default: "HAND NGO | Human Action for Need and Development",
+    template: "%s | HAND NGO",
+  },
+
+  description:
+    "HAND NGO is a nonprofit organization dedicated to empowering communities through climate action, sustainable livelihoods, education, women empowerment, healthcare, and community development across India.",
+
+  applicationName: "HAND NGO",
+
+  authors: [
+    {
+      name: "HAND NGO",
+      url: siteUrl,
+    },
+  ],
+
+  creator: "HAND NGO",
+  publisher: "HAND NGO",
+
+  category: "Nonprofit Organization",
+
+  alternates: {
+    canonical: "/",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+      "max-snippet": -1,
+    },
+  },
+
+  openGraph: {
+    title: "HAND NGO | Human Action for Need and Development",
+    description:
+      "Empowering communities through climate action, sustainable livelihoods, education, women empowerment, healthcare, and community development.",
+
+    url: siteUrl,
+    siteName: "HAND NGO",
+    locale: "en_IN",
+    type: "website",
+
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "HAND NGO - Human Action for Need and Development",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "HAND NGO",
+    description:
+      "Empowering communities through climate action, education, women empowerment and sustainable development.",
+
+    images: ["/og-image.jpg"],
+  },
+
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      {
+        url: "/favicon-96x96.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
+      {
+        url: "/favicon-96x96.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
+
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
@@ -21,13 +102,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;1,400;1,700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-      </head>
-      <body className={`${dmSans.variable} antialiased`}>
-        <Script src="https://checkout.razorpay.com/v1/checkout.js" />
+      <body>
+        <OrganizationSchema />
+        <WebsiteSchema />
         {children}
       </body>
     </html>
