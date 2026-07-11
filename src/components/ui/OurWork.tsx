@@ -8,8 +8,8 @@ const images1 = [
   '/ourwork/gudivada1.jpg', '/ourwork/digital_udaan2.jpg',
 ]
 const images2 = [
-  '/ourwork/health.png', '/ourwork/school3.jpg', '/ourwork/food2.png',
-  '/ourwork/climate.jpeg', '/ourwork/school5.jpg','/ourwork/food4.png'
+  '/ourwork/health.png',  '/ourwork/food2.png',
+  '/ourwork/climate.jpeg', '/ourwork/food4.png'
 ]
 
 export default function OurWorkSection() {

@@ -8,10 +8,6 @@ const gallery = [
         title: 'Community Development',
     },
     {
-        image: '/ourwork/school1.jpg',
-        title: 'Education Support',
-    },
-    {
         image: '/ourwork/plates1.jpg',
         title: 'Livelihood Support',
     },
@@ -22,6 +18,10 @@ const gallery = [
     {
         image: '/ourwork/food1.png',
         title: 'Volunteer Activities',
+    },
+        {
+        image: '/ourwork/digital_udaan2.jpg',
+        title: 'Youth Support',
     },
 ]
 

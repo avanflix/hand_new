@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const slides = [
   {
-    src: '/livelihood/6.png',
+    src: '/livelihood/vistarakulu_plates.png',
     alt: 'Livelihood Programs',
     tag: 'Livelihood',
     headline: ['Empowering', 'Rural Women', 'to Thrive'],

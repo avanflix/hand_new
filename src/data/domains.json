@@ -1,7 +1,7 @@
 [
   {
     "id": "livelihood",
-    "heroImage": "/livelihood/6.png",
+    "heroImage": "/livelihood/vistarakulu_plates.png",
     "heroTitle": "Livelihood",
     "heroSubtitle": "Creating livelihoods, cultivating confidence",
     "heroButtonText": "Explore Programs",
@@ -74,8 +74,8 @@
       }
     ],
     "marqueeImages": [
-      "/ourwork/health.png", "/ourwork/school3.jpg", "/ourwork/food2.png",
-  "/ourwork/climate.jpeg", "/ourwork/school5.jpg","/ourwork/food4.png"
+      "/ourwork/health.png",  "/ourwork/food2.png",
+  "/ourwork/climate.jpeg","/ourwork/food4.png"
     ]
   }
 ]

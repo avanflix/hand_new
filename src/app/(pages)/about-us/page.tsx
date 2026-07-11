@@ -17,7 +17,7 @@ export default function AboutUs() {
     {
       icon: Target,
       title: 'Our Mission',
-      image: '/ourwork/mission.png',
+      image: '/ourwork/grid3.png',
       text: 'To empower vulnerable communities by creating sustainable livelihood opportunities and advancing climate resilience for a self-reliant and sustainable future.',
       content: [
         'HAND works to create long-term opportunities for rural communities through sustainable development initiatives that improve livelihoods, education, healthcare, and environmental conservation.',
@@ -34,7 +34,7 @@ export default function AboutUs() {
       content: [
         'We envision a future where every village is economically resilient, environmentally sustainable, and socially inclusive.',
         'Communities should have equal access to education, healthcare, clean water, renewable livelihoods, and opportunities that improve their quality of life.',
-        'Our vision extends beyond development—it focuses on creating ecosystems where people become self-reliant, preserve natural resources, and contribute positively to future generations.',
+        'Our vision extends beyond development, it focuses on creating ecosystems where people become self-reliant, preserve natural resources, and contribute positively to future generations.',
         'Through innovation, partnerships, and community participation, HAND aims to become a catalyst for sustainable transformation across India.',
       ],
     },
