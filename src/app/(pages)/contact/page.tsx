@@ -91,12 +91,12 @@ export default function Contact() {
                       Office Address
                     </h4>
                     <a
-                      href="https://www.google.com/maps/search/?api=1&query=Hyderabad,+Telangana,+India"
+                      href="https://www.google.com/maps/place/Row+house,+178,+Chitrapuri+Colony,+Manikonda,+Hyderabad,+Telangana+500104/@17.4150116,78.3779491,157m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bcb9403f7cd86b5:0xbc100da0b7f042a8!8m2!3d17.4150103!4d78.3785928!16s%2Fg%2F11y4qpbcv5?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm text-gray-600 hover:underline transition-all"
                     >
-                      Hyderabad, Telangana, India
+                      178, Chitrapuri Row House Rd, Chitrapuri Colony, Hyderabad, Telangana 500104
                     </a>
                   </div>
                 </div>
