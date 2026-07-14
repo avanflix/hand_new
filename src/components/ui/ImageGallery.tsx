@@ -19,7 +19,7 @@ const gallery = [
         image: '/ourwork/food1.png',
         title: 'Volunteer Activities',
     },
-        {
+    {
         image: '/ourwork/digital_udaan2.jpg',
         title: 'Youth Support',
     },
@@ -47,6 +47,26 @@ const gallery2 = [
         title: 'Environmental Conservation',
     },
 ]
+
+const newsArticles = [
+    {
+        image: "/ourwork/news/gudivada_sakshi.jpeg",
+        title: "Women Empowerment Initiative",
+    },
+
+    {
+        image: "/ourwork/news/gudivada_prathibha.jpeg",
+        title: "Livelihood Project Success",
+    },
+    {
+        image: "/ourwork/news/munnangi_sakshi.jpeg",
+        title: "Climate Awareness Program",
+    },
+    {
+        image: "/ourwork/news/Munnangi_andhraprabha.jpeg",
+        title: "Health Camp Coverage",
+    },
+];
 
 export default function ImageGallery() {
     return (
@@ -171,6 +191,55 @@ export default function ImageGallery() {
                             Sustainable Development
                         </h3>
                     </div>
+                </div>
+
+            </div>
+            {/* News Articles */}
+            <div className="max-w-7xl mx-auto px-6 lg:px-10 mt-24">
+
+                <div className="text-center mb-12">
+                    <span
+                        className="uppercase tracking-[0.25em] text-sm font-semibold"
+                        style={{ color: "var(--clr-leaf)" }}
+                    >
+                        Media Coverage
+                    </span>
+
+                    <h2 className="display-heading text-4xl md:text-5xl mt-4">
+                        HAND in the News
+                    </h2>
+
+                    <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
+                        Our initiatives have been featured by newspapers and media outlets,
+                        highlighting our commitment to community development, sustainability,
+                        and social impact.
+                    </p>
+                </div>
+
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+                    {newsArticles.map((item) => (
+                        <div
+                            key={item.title}
+                            className="group overflow-hidden rounded-2xl bg-white shadow-md hover:shadow-xl transition-all duration-300"
+                        >
+                            <div className="relative h-[420px] bg-white p-3">
+                                <Image
+                                    src={item.image}
+                                    alt={item.title}
+                                    fill
+                                    className="object-contain group-hover:scale-105 transition duration-500"
+                                />
+                            </div>
+
+                            {/* <div className="p-3">
+                                <h4 className="text-sm font-semibold text-center text-gray-700">
+                                    {item.title}
+                                </h4>
+                            </div> */}
+                        </div>
+                    ))}
+
                 </div>
 
             </div>
