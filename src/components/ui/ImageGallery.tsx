@@ -59,7 +59,7 @@ const newsArticles = [
         title: "Livelihood Project Success",
     },
     {
-        image: "/ourwork/news/munnangi_sakshi.jpeg",
+        image: "/ourwork/news/Munnangi_sakshi.jpeg",
         title: "Climate Awareness Program",
     },
     {
