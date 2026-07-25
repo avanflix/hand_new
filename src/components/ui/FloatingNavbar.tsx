@@ -76,6 +76,15 @@ export default function FloatingNavbar() {
             Livelihood
           </Link>
 
+          <Link
+            href="/gallery"
+            className="text-sm font-500 transition-colors hover:text-amber-600"
+            style={{ color: scrolled ? '#1A1A1A' : 'white' }}
+          >
+            Gallery
+          </Link>
+
+
           {/* Get Involved Dropdown */}
           <div
             className="relative"
@@ -161,6 +170,7 @@ export default function FloatingNavbar() {
             { label: 'Climate Change', href: '/domains/climate-change' },
             { label: 'Livelihood', href: '/domains/livelihood' },
             { label: 'Volunteer', href: '/volunteer' },
+            { label: 'Gallery', href: '/gallery' },
             { label: 'Corporate Partners', href: '/partners' },
             { label: 'Contact', href: '/contact' },
           ].map((item) => (
