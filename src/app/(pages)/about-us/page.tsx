@@ -48,7 +48,7 @@ export default function AboutUs() {
         eyebrow="Who We Are"
         title="Human Action for"
         titleAccent="Need &Development"
-        subtitle="A grassroots NGO driving sustainable change through livelihood, climate action, and community empowerment across rural India."
+        subtitle="A grassroots NGO driving sustainable change through livelihood, Climate Change, and community empowerment across rural India."
         backgroundImage="/images/about.png"
       />
 

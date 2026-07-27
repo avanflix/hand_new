@@ -32,7 +32,7 @@ const gallery2 = [
     },
     {
         image: '/ourwork/climate.jpeg',
-        title: 'Climate Action',
+        title: 'Climate Change',
     },
     {
         image: '/ourwork/gudivada2.jpg',

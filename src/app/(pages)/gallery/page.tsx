@@ -96,7 +96,7 @@ export default function GalleryPage() {
                 eyebrow="Our Moments"
                 title="Community"
                 titleAccent="Gallery"
-                subtitle="A glimpse into HAND's initiatives, community engagement, livelihood programs, climate action, and impact across rural India."
+                subtitle="A glimpse into HAND's initiatives, community engagement, livelihood programs, Climate Change, and impact across rural India."
                 backgroundImage="/gallery/hero.JPG"
             />
 

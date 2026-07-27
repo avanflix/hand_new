@@ -16,7 +16,7 @@ export default function OrganizationSchema() {
     image: "https://www.handngo.org/og-image.jpg",
 
     description:
-      "HAND NGO empowers communities through climate action, education, sustainable livelihoods, women empowerment, healthcare and community development.",
+      "HAND NGO empowers communities through Climate Change, education, sustainable livelihoods, women empowerment, healthcare and community development.",
 
     email: "info@handngo.org",
 

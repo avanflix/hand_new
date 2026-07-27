@@ -18,7 +18,7 @@ const domains = [
   {
     id: 'climate',
     tag: '02',
-    title: 'Climate Action',
+    title: 'Climate Change',
     description: 'Protecting our environment through eco-friendly initiatives, leaf plate production, renewable energy adoption, and plastic reduction awareness campaigns.',
     image: '/climate/2.png',
     link: '/domains/climate-change',

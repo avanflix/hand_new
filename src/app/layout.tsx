@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    "HAND NGO is a nonprofit organization dedicated to empowering communities through climate action, sustainable livelihoods, education, women empowerment, healthcare, and community development across India.",
+    "HAND NGO is a nonprofit organization dedicated to empowering communities through Climate Change, sustainable livelihoods, education, women empowerment, healthcare, and community development across India.",
 
   applicationName: "HAND NGO",
 
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "HAND NGO | Human Action for Need and Development",
     description:
-      "Empowering communities through climate action, sustainable livelihoods, education, women empowerment, healthcare, and community development.",
+      "Empowering communities through Climate Change, sustainable livelihoods, education, women empowerment, healthcare, and community development.",
 
     url: siteUrl,
     siteName: "HAND NGO",
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "HAND NGO",
     description:
-      "Empowering communities through climate action, education, women empowerment and sustainable development.",
+      "Empowering communities through Climate Change, education, women empowerment and sustainable development.",
 
     images: ["/og-image.jpg"],
   },

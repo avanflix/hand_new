@@ -10,7 +10,7 @@ export default function WebsiteSchema() {
     name: "HAND NGO",
 
     description:
-      "HAND NGO is a nonprofit organization working in climate action, education, livelihoods, women empowerment, healthcare and community development.",
+      "HAND NGO is a nonprofit organization working in Climate Change, education, livelihoods, women empowerment, healthcare and community development.",
 
     publisher: {
       "@id": "https://www.handngo.org/#organization",

@@ -136,7 +136,7 @@ export default function DonatePage() {
         eyebrow="Make an Impact"
         title="Every rupee builds a"
         titleAccent="better future"
-        subtitle="Support sustainable livelihood, climate action, and community programs that directly reach rural families across India."
+        subtitle="Support sustainable livelihood, Climate Change, and community programs that directly reach rural families across India."
          backgroundImage="/images/donate.png"
       />
 

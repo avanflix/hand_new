@@ -15,7 +15,7 @@ const slides = [
   {
     src: '/climate/1.png',
     alt: 'Climate Programs',
-    tag: 'Climate Action',
+    tag: 'Climate Change',
     headline: ['Protecting', 'Our Planet', 'Together'],
     sub: 'Addressing climate change through sustainable practices and community-based conservation.',
   },

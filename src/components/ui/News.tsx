@@ -78,7 +78,7 @@ export default function News() {
     // },
     // {
     //   id: 'news6',
-    //   title: 'Climate Action Initiative Plants 100,000 Trees',
+    //   title: 'Climate Change Initiative Plants 100,000 Trees',
     //   excerpt: 'Major reforestation project launched to combat deforestation and promote environmental sustainability in affected regions.',
     //   date: '2024-01-01',
     //   category: 'Environmental',
