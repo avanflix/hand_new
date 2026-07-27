@@ -23,8 +23,8 @@ function useCountUp(target: number, isVisible: boolean, duration = 2000) {
 const stats = [
   { value: 10000, suffix: '+', label: 'Lives Impacted', sublabel: 'Directly' },
   { value: 12000, suffix: '+', label: 'Beneficiaries', sublabel: 'Reached' },
-  { value: 5, suffix: '+', label: 'Years', sublabel: 'of Active Programs' },
-  { value: 3, suffix: '', label: 'Domains', sublabel: 'of Intervention' },
+  { value: 3, suffix: '+', label: 'Years', sublabel: 'of Active Programs' },
+  { value: 1, suffix: '', label: 'Domain', sublabel: 'of Intervention' },
 ]
 
 export default function StatsSection() {
