@@ -88,7 +88,7 @@ export default function AboutSection() {
                 className="h-52 rounded-2xl flex flex-col items-center justify-center text-white -mt-12 p-6"
                 style={{ background: 'var(--clr-earth)' }}
               >
-                <span className="text-5xl font-800" style={{ fontFamily: "'Playfair Display', serif" }}>10+</span>
+                <span className="text-5xl font-800" style={{ fontFamily: "'Playfair Display', serif" }}>3+</span>
                 <span className="text-sm mt-2 text-center opacity-80 font-500 tracking-wide uppercase">Years of Impact</span>
               </div>
             </div>
