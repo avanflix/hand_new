@@ -104,7 +104,7 @@ export default function AboutUs() {
       <StatsSection />
       <ImageGallery/>
 
-      <TeamSection />
+      {/* <TeamSection /> */}
 
       <MissionVisionModal
         isOpen={selected !== null}
